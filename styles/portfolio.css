@@ -1,3 +1,12 @@
+:root {
+  --branding-color: #65c8ca;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Cormorant Garamond", serif;
+  --secondary-color: #d9d9d9;
+}
+body {
+  font-family: var(--default-font-family);
+}
 h1,
 h2,
 h3,
@@ -5,21 +14,38 @@ h4,
 h5,
 h6 {
   color: black;
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font-family);
   font-weight: bold;
 }
 h1 {
   font-size: 80px;
 }
 p {
-  font-family: "Cormorant Garamond", serif;
   font-weight: normal;
 }
 .hero {
-  background-color: #bababa;
+  background-color: var(--secondary-color);
   text-align: center;
+  padding: 160px 20px;
 }
 .hero p {
   font-size: 36px;
   font-weight: bold;
+  margin: 0;
+  color: #202020;
+}
+.hero h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 2;
+  color: #202020;
+}
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 20px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  text-decoration: none;
 }
