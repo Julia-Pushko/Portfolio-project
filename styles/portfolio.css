@@ -27,6 +27,7 @@ p {
   background-color: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
+  padding-left: 0;
 }
 .hero p {
   font-size: 36px;
@@ -48,4 +49,12 @@ p {
   line-height: 27px;
   padding: 15px 30px;
   text-decoration: none;
+}
+.greeting-image-bg {
+  background: var(--secondary-color);
+  padding: 60px 40px 0px 20px;
+}
+.portfolio-image {
+  border-left: 10px solid var(--branding-color);
+  padding-left: 20px;
 }
