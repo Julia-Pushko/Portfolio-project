@@ -1,9 +1,25 @@
-h1 {
-  color: blue;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
   font-family: "Playfair Display", serif;
-  font-weight: 700;
+  font-weight: bold;
+}
+h1 {
+  font-size: 80px;
 }
 p {
   font-family: "Cormorant Garamond", serif;
-  font-weight: 700;
+  font-weight: normal;
+}
+.hero {
+  background-color: #bababa;
+  text-align: center;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
 }
