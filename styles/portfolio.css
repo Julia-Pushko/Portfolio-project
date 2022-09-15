@@ -1,7 +1,8 @@
 :root {
-  --branding-color: #65c8ca;
+  --branding-color: #2fc1c4;
+  --background-color: #e5f9f9;
   --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Cormorant Garamond", serif;
+  --default-font-family: "PT Serif", serif;
   --secondary-color: #d9d9d9;
 }
 body {
@@ -20,8 +21,13 @@ h6 {
 h1 {
   font-size: 80px;
 }
+h2 {
+  font-size: 48px;
+}
 p {
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 .hero {
   background-color: var(--secondary-color);
@@ -45,16 +51,42 @@ p {
   background: var(--branding-color);
   border-radius: 20px;
   color: white;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 15px 25px;
   text-decoration: none;
 }
 .greeting-image-bg {
   background: var(--secondary-color);
-  padding: 60px 40px 0px 20px;
+  padding: 60px 40px 0px 0px;
 }
 .portfolio-image {
   border-left: 10px solid var(--branding-color);
   padding-left: 20px;
+}
+.btn-branding-outline {
+  color: var(--branding-color);
+  border-radius: 20px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 28px;
+  text-decoration: none;
+  border: 1px solid var(--branding-color);
+}
+.img-city {
+  padding: 15px 100px 15px;
+  background-color: var(--background-color);
+}
+.project-description {
+  padding-left: 60px;
+}
+
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .btn-branding-outline {
+    margin-bottom: 20px;
+  }
 }
