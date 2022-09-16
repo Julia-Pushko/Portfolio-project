@@ -47,6 +47,9 @@ p {
   line-height: 2;
   color: #202020;
 }
+.p-outline {
+  margin: 50px;
+}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 20px;
@@ -77,16 +80,44 @@ p {
   padding: 15px 100px 15px;
   background-color: var(--background-color);
 }
+.img-weather-app {
+  padding: 40px;
+  background: var(--background-color);
+}
 .project-description {
   padding-left: 60px;
+  margin-top: 50px;
 }
 
 @media (max-width: 960px) {
+  h1 {
+    font-size: 55px;
+    padding-top: 30px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 80px 20px;
+    padding-left: 0;
+  }
+  .hero p {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+    color: #202020;
+  }
   .project-description {
     padding: 0;
     text-align: center;
+    margin: 0;
   }
   .btn-branding-outline {
     margin-bottom: 20px;
+  }
+  .p-outline {
+    margin-bottom: 30px;
   }
 }
