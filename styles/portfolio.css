@@ -32,20 +32,23 @@ p {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
   padding-left: 0;
 }
 .hero p {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
   margin: 0;
   color: #202020;
 }
 .hero h2 {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 32px;
   line-height: 2;
   color: #202020;
+}
+.main-info {
+  margin-top: 100px;
 }
 .p-outline {
   margin: 50px;
@@ -59,13 +62,10 @@ p {
   padding: 15px 25px;
   text-decoration: none;
 }
-.greeting-image-bg {
-  background: var(--secondary-color);
-  padding: 60px 40px 0px 0px;
-}
 .portfolio-image {
   border-left: 10px solid var(--branding-color);
   padding-left: 20px;
+  vertical-align: middle;
 }
 .btn-branding-outline {
   color: var(--branding-color);
@@ -91,7 +91,7 @@ p {
 
 @media (max-width: 960px) {
   h1 {
-    font-size: 55px;
+    font-size: 60px;
     padding-top: 30px;
   }
   h2 {
@@ -100,14 +100,24 @@ p {
   .hero {
     background-color: var(--secondary-color);
     text-align: center;
-    padding: 80px 20px;
+    padding: 0 20px;
     padding-left: 0;
+    margin-top: 0;
   }
   .hero p {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bold;
     margin: 0;
     color: #202020;
+  }
+  .portfolio-image {
+    width: 70%;
+    margin: 0;
+    text-align: center;
+  }
+  .col-lg-4 {
+    text-align: center;
+    font-size: medium;
   }
   .project-description {
     padding: 0;
