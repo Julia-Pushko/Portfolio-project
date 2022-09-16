@@ -44,7 +44,7 @@ p {
 .hero h2 {
   font-weight: bold;
   font-size: 32px;
-  line-height: 2;
+  line-height: 1.5;
   color: #202020;
 }
 .main-info {
@@ -89,9 +89,9 @@ p {
   margin-top: 50px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 900px) {
   h1 {
-    font-size: 60px;
+    font-size: 45px;
     padding-top: 30px;
   }
   h2 {
@@ -105,10 +105,13 @@ p {
     margin-top: 0;
   }
   .hero p {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
     margin: 0;
     color: #202020;
+  }
+  .hero h2 {
+    font-size: 30px;
   }
   .portfolio-image {
     width: 70%;
@@ -116,8 +119,10 @@ p {
     text-align: center;
   }
   .col-lg-4 {
-    text-align: center;
-    font-size: medium;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
   }
   .project-description {
     padding: 0;
