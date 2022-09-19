@@ -80,6 +80,7 @@ p {
   color: white;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   font-size: 20px;
+  transition: all 200ms ease-in-out;
 }
 .portfolio-image {
   border-left: 10px solid var(--branding-color);
@@ -101,6 +102,7 @@ p {
   color: white;
   transition: all 200ms ease-in-out;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-color: var(--branding-color);
 }
 .img-city {
   padding: 15px 100px 15px;
