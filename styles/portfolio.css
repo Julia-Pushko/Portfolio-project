@@ -47,6 +47,20 @@ p {
   line-height: 1.5;
   color: #202020;
 }
+.about-section {
+  padding: 100px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+}
+.about-section h2 {
+  font-size: 18px;
+  margin: 30px 0;
+}
+.about-section-content {
+  margin: 30px;
+  margin-right: 0;
+}
 .main-info {
   margin-top: 100px;
 }
@@ -89,6 +103,9 @@ p {
   padding-left: 60px;
   margin-top: 50px;
 }
+.image-about-page {
+  max-width: 20em;
+}
 
 @media (max-width: 992px) {
   h1 {
@@ -117,10 +134,8 @@ p {
   .portfolio-image {
     max-width: 600px;
     width: 70%;
-
     margin: 0;
   }
-
   .col-lg-4 {
     display: flex;
     justify-content: center;
@@ -137,5 +152,9 @@ p {
   }
   .p-outline {
     margin-bottom: 30px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
