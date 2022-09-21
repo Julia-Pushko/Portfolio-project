@@ -29,6 +29,13 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+.active {
+  color: var(--branding-color) !important;
+}
+.nav-item {
+  padding: 0 15px;
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -149,6 +156,7 @@ p {
 .instagram-image {
   max-width: 27px;
 }
+
 #work-page {
   background-color: white;
   border: 5px solid var(--secondary-color);
