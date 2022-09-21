@@ -245,4 +245,11 @@ footer .social-links a:hover {
     text-align: center;
     padding: 0;
   }
+  .about-section h1 {
+    font-size: 50px;
+  }
+  .image-about-page {
+    max-width: 15em;
+    padding-bottom: 30px;
+  }
 }
