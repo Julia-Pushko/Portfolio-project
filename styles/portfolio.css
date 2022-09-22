@@ -176,6 +176,10 @@ footer .email-link {
 footer .email-link:hover {
   color: var(--branding-color);
 }
+footer .social-links {
+  border-bottom: 2px solid var(--secondary-color);
+  padding-bottom: 20px;
+}
 footer .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
@@ -244,12 +248,36 @@ footer .social-links a:hover {
   .about-section {
     text-align: center;
     padding: 0;
+    margin: 30px 15px;
   }
   .about-section h1 {
-    font-size: 50px;
+    font-size: 45px;
+  }
+  .about-section-content {
+    margin: 40px 0 20px;
+  }
+  .about-section-content p {
+    padding: 0 20px;
   }
   .image-about-page {
-    max-width: 15em;
-    padding-bottom: 30px;
+    max-width: 60%;
+    padding-bottom: 20px;
+  }
+  footer .social-links a {
+    font-size: 18px;
+    padding: 5px 10px;
+  }
+  footer .email-link {
+    font-size: 18px;
+  }
+  .image-about-contact-page {
+    max-width: 50%;
+    padding-bottom: 20px;
+  }
+  #work-page {
+    padding-top: 0;
+  }
+  #about-main {
+    margin: 20px 0;
   }
 }
